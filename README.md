@@ -20,7 +20,7 @@ At the end of the module you will be able to 
   - `./docs/anova.mlx`
 1. Llinear mixed models are a more modern and better approach, that you should  use in your own projects. Two MLX explain the basics (and the relation with the traditional methods) and some more advanced use cases:
 
-  - `./docs/linearmixedmodels.mlx`
+  - `./docs/linearmixedmodelspart1.mlx`
   - `./docs/linearmixedmodelspart2.mlx`
 1. While working through the Linear Mixed Models MLX file, this video may be helpful to help interpret the output of fitlme.
 1. After completing the Linear Mixed Models assignments (below) the `./docs/linearmixedmodelspart3.mlx` helps to understand how to use the model to make predictions and how to compare model parameters with each other.
