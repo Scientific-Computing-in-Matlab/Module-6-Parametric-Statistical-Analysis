@@ -4,7 +4,7 @@ In current practice, data analysis ends with an assessment of statistical signif
 
 ## Objectives
 
-At the end of the module you will be able to 
+At the end of this *two-week* module you will be able to 
 
 - Perform traditional T-tests and ANOVAs in Matlab
 - Explain the computations underlying the ANOVA
@@ -14,11 +14,14 @@ At the end of the module you will be able to 
 
 ## Materials
 
-1. Start by reading and exploring code that helps understand the basics of the traditional analyses of variance in the following MLX files:
+### Week 1
+ Start by reading and exploring code that helps understand the basics of the traditional analyses of variance:
   - `./docs/onesample.mlx`
   - `./docs/twosample.mlx`
   - `./docs/anova.mlx`
-1. Llinear mixed models (LMM) are a more modern and better approach, that you should  use in your own projects. These two MLX files explain how to perform LMM analyses in Matlab:
+  
+### Week 2
+Linear mixed models (LMM) are a more modern and better approach, that you should use in your projects. These two MLX files explain how to perform LMM analyses in Matlab:
   - `./docs/linearmixedmodelspart1.mlx`
   - `./docs/linearmixedmodelspart2.mlx`
 1. [This video](https://youtu.be/OOaofQ1WkcM) does a walkthrough to explain the output of fitlme.
@@ -27,8 +30,12 @@ At the end of the module you will be able to 
 
 ## Assignments
 
+### Week 1
 1. **Power & Sample Size**.  The power of a statistical tets depends on the effect size, the number of measurements, and the type of test (e.g., parametric vs. non-parametric). Follow the starter code in `./code/powerAnalysis.m` to investigate this, and visualize  your findings. 
 1. ** Pairwise differences**. The code in `./docs/twosample.mlx` shows a quick, vectorized way to generate all pairwise differences between the elements of two vectors. For instance, if we had vectors x and y, this creates x(1)-y(1), x(1)-y(2), ... x(2)-y(2),..etc.  Make sure you understand this code. Inspect the output of each of the lines, read the help for repmat, and try-out the code snippet on some small vectors of your own chosing. Note that this is a general solution that can also work for pairwise sums, products, etc. Your assigment is to write code that compares this vectorized approach to a for-loop. The `./code/pairwise.m` file has the starter code and instructions.
+
+### Week 2 
+
 1. **Linear Mixed Models**.  In Multiple Sclerosis, the immune system attacks the myelin sheath and this leads to faulty signal transduction along the optic tract and nerve. Of the three visual pathways, the magnocellular pathway is myelinated most strongly, hence one would expect that MS affects that pathway most.  The  `./data/msData.mat` file contains a table (T) with data from an experiment investigating the latency of visually evoked potentials in people living with multiple sclerosis (MS) and healthy controls. The researchers used different visual patterns to probe the three visual pathways to answer several questions.
   - How different are the VEP latencies in the three pathways?
   - Does MS affect VEP latency? How strong is this effect?  Is this effect pathway-specific? 
