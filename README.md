@@ -32,7 +32,7 @@ Linear mixed models (LMM) are a more modern and better approach, that you should
 
 ### Week 1
 1. **Power & Sample Size**.  The power of a statistical tets depends on the effect size, the number of measurements, and the type of test (e.g., parametric vs. non-parametric). Follow the starter code in `./code/powerAnalysis.m` to investigate this, and visualize  your findings. 
-1. ** Pairwise differences**. The code in `./docs/twosample.mlx` shows a quick, vectorized way to generate all pairwise differences between the elements of two vectors. For instance, if we had vectors x and y, this creates x(1)-y(1), x(1)-y(2), ... x(2)-y(2),..etc.  Make sure you understand this code. Inspect the output of each of the lines, read the help for repmat, and try-out the code snippet on some small vectors of your own chosing. Note that this is a general solution that can also work for pairwise sums, products, etc. Your assigment is to write code that compares this vectorized approach to a for-loop. The `./code/pairwise.m` file has the starter code and instructions.
+1. **Pairwise differences**. The code in `./docs/twosample.mlx` shows a quick, vectorized way to generate all pairwise differences between the elements of two vectors. For instance, if we had vectors x and y, this creates x(1)-y(1), x(1)-y(2), ... x(2)-y(2),..etc.  Make sure you understand this code. Inspect the output of each of the lines, read the help for repmat, and try-out the code snippet on some small vectors of your own chosing. Note that this is a general solution that can also work for pairwise sums, products, etc. Your assigment is to write code that compares this vectorized approach to a for-loop. The `./code/pairwise.m` file has the starter code and instructions.
 
 ### Week 2 
 
