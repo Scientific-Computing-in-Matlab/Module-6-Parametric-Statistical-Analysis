@@ -1,4 +1,4 @@
-# Module-5 Parametric Statistical Analysis
+# Module-6 Parametric Statistical Analysis
 
 In current practice, data analysis ends with an assessment of statistical significance. In this module we'll look at some of the more established methods (ANOVA), which you'll need to know to understand the published literature, as well as some improved methods (linear mixed effects models).
 
